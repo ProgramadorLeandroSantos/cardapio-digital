@@ -1,9 +1,11 @@
 package com.cardapio.entities;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
-@Entity(name = "foods")
 @Table(name = "foods")
+@Entity
+@Data
 public class FoodEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
