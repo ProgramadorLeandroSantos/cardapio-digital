@@ -1,7 +1,6 @@
 package com.cardapio.controllers;
 
 import com.cardapio.entities.FoodEntity;
-import com.cardapio.repositories.FoodRepository;
 import com.cardapio.services.food.FoodService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
